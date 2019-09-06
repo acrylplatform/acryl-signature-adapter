@@ -1,6 +1,6 @@
 import { SeedAdapter, SIGN_TYPE } from '../src/index';
 import { txs } from './transactionsData';
-import { libs, signTx } from '@acryl/acryl-transactions';
+import { libs } from '@acryl/acryl-transactions';
 
 const { verifySignature } = libs.crypto;
 
@@ -19,9 +19,6 @@ const checkTx = (type: keyof typeof txs, version: number) => {
             } as any);
             return Promise.all([adapter.getPublicKey(), signable.getBytes(), signable.getId(), signable.getSignData(), signable.getSignature()])
                 .then(([pubk, bytes, id, signedData, signature]) => {
-                    if (type == 7) {
-                        console.log(signTx(signedData, 'step steak middle message genre picnic attract violin rose glare glad woman height idle finish'))
-                    }
                     expect(checkCryptoGen(signedData.senderPublicKey)(bytes, txData.proof)).toBe(true);
                     expect(checkCryptoGen(pubk)(bytes, signature)).toBe(true);
                     expect(id).toEqual(txData.id);
