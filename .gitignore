@@ -1,0 +1,7 @@
+node_modules/
+src/**/*.js
+src/**/*.js.map
+dist
+!dist/acryl-signature-adapter.js
+.idea
+coverage/
