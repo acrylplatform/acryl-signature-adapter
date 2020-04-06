@@ -12,9 +12,9 @@ import { SeedAdapter, SIGN_TYPE } from '@acryl/signature-adapter';
 import { Money, Asset } from '@acryl/data-entities';
 
 const asset = new Asset({
-   ticker: 'WAVES',
-   id: 'WAVES',
-   name: 'Waves',
+   ticker: 'ACRYL',
+   id: 'ACRYL',
+   name: 'Acryl',
    precision: 8,
    description: '',
    height: 0,

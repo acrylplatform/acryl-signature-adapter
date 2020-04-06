@@ -60,9 +60,9 @@ describe('Create data and signature check', () => {
         
         it('check set script signature', () => checkTx(SIGN_TYPE.SET_SCRIPT, 1).check());
         
-        // it('check set asset script signature', () => checkTx(SIGN_TYPE.SET_ASSET_SCRIPT, 1).check());
+        it('check set asset script signature', () => checkTx(SIGN_TYPE.SET_ASSET_SCRIPT, 1).check());
         
-        // it('check script invocation signature', () => checkTx(SIGN_TYPE.SCRIPT_INVOCATION, 1).check());
+        it('check script invocation signature', () => checkTx(SIGN_TYPE.SCRIPT_INVOCATION, 1).check());
         
         it('check auth signature', () => checkTx(SIGN_TYPE.AUTH, 1).check());
         

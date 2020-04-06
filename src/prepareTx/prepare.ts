@@ -3,7 +3,7 @@ import { BigNumber } from '@acryl/bignumber';
 import { libs } from '@acryl/acryl-transactions';
 import { VALIDATORS } from './fieldValidator';
 
-export const ACRYL_ID = 'WAVES';
+export const ACRYL_ID = 'ACRYL';
 const { stringToBytes, base58Encode } = libs.crypto;
 
 

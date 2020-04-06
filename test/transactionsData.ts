@@ -214,8 +214,8 @@ export const txs = {
                 sellMatcherFee: 300000,
                 height: 774422
             },
-            id: 'RjPvZTarNN4j5T5pdwy7iz1GuGFgVVsQvARq5k79fok',
-            proof: '5A4kwvKkEpBn8q3t15dXo37Sq3fKEhrSu1VDvK7zg9YzsroMgi6qriiCnPeqVs3KoKPePb7ZzhkD2eWgQEDMUUcG',
+            id: 'AwCidhjk8xUhh4nAMvYRtfW752GuLKiVPRdY8gFJ3fSt',
+            proof: '4y9bgqtpu1NUmKkXnsr8Mk3XYw8ocfsaTqQpmcZEYKYFjDH3GXAviXMmeRxnQqhoTnRtdY4mmT4YbqvmJToAwm3i',
         },
         2: {
             name: 'exchange',
@@ -268,8 +268,8 @@ export const txs = {
                 'buyMatcherFee': Money.fromCoins(299998, Voyage),
                 'sellMatcherFee': Money.fromCoins(299, Voyage),
             },
-            id: '7UtEH5NsorJPQKJmoJBqZJ5VtcWpLFPhWz72o5YpQHBH',
-            proof: '3JFRUv8v26DQNhDDJdQeyoqyoFBr8yyHtZKWTgkzDnQe6jaVro3iR4AXVVrqoMXagD7BG11SrhvKWs4nL4YB1WAh'
+            id: '8XL13dWkbnSVbT4n382Gs2CaPVaiWGzeqrR8rcXHaknh',
+            proof: '2kCmLL7SzCzCzECXqNhnAsCm2kbnMWkS1Xe2TaM1n9x5aoozxCniVoNnN93JKURhqnuVbRu2dcUBGHqtGz49tdiQ'
         },
     },
     [SIGN_TYPE.SPONSORSHIP]: {
@@ -304,23 +304,23 @@ export const txs = {
         1: {
             name: 'set asset script',
             data: {
-                senderPublicKey: '3Zogxgq7Gcw82HVnxBopx7qhWMjJYt55t98XC1hDSMR5',
+                senderPublicKey: 'EcLWiQ3yH9kREogVVKff1XApYDxaYBinAYcPigW7TMo6',
                 fee: Money.fromCoins(100000000, AcrylAsset),
                 timestamp: 1555958479625,
                 version: 1,
                 assetId: 'HFW1aho3BGGZd4yFUmANaj38PjCYh2J2xm1WzKy4Td6G',
                 script: 'base64:AgQAAAAHV0FWRVNJZAEAAAAEE6vZMwQAAAAGaXNzdWVyCQEAAAAHQWRkcmVzcwAAAAEBAAAACjBzQOgYK1aOY+IEAAAAB2Fzc2V0SWQBAAAACJ+kNIQu6TK4BAAAAAckbWF0Y2gwBQAAAAJ0eAMJAAABAAAAAgUAAAAHJG1hdGNoMAIAAAATRXhjaGFuZ2VUcmFuc2FjdGlvbgQAAAABdAUAAAAHJG1hdGNoMAMJAAAAAAAAAggICAUAAAABdAAAAAlzZWxsT3JkZXIAAAAJYXNzZXRQYWlyAAAACnByaWNlQXNzZXQFAAAAB1dBVkVTSWQGCQAAAAAAAAIICAgFAAAAAXQAAAAJc2VsbE9yZGVyAAAACWFzc2V0UGFpcgAAAAthbW91bnRBc3NldAUAAAAHV0FWRVNJZAaA4Tys',
             },
-            id: 'GxePoQhGWsF7o2r4kvNqqHaGdDyeBYk8K49mqFREQf6W',
-            proof: '2eNxhqTGaBjLAwiyovQyfMoMMWddNzw2VHdbYbsY9jde8c8HeQ4rwE8cWTG4vdyacsNSv35vTJsoBrbWjSvARR3C',
+            id: 'BA7R2a5HqxgLma3AZ93PzBoWyeUNtEtqnFVi83CqbYtE',
+            proof: '4APSBzftRrpasD2jwh5yB11xR98Hz1T5pMEQJgHom5cfsfdXBxgsccAXYRWJseVanM3vkcDfE6AB54wQRiR6CS8a',
         }
     },
     [SIGN_TYPE.SCRIPT_INVOCATION]: {
         1: {
-            network: 'K',
+            network: 'A',
             name: 'script invocation',
             data: {
-                'senderPublicKey': 'FkuT6Kxb5UG4pABfhq8y8f2XndyURrPQtq4rASDbMiSK',
+                'senderPublicKey': 'EcLWiQ3yH9kREogVVKff1XApYDxaYBinAYcPigW7TMo6',
                 'call': {
                     'function': 'bet',
                     'args': [
@@ -334,18 +334,18 @@ export const txs = {
                         }
                     ]
                 },
-                'dApp': '3MqQ9ihYKGehfUnXYf5WmkYSZUD71ByeCQe',
+                'dApp': '3EKhM51MGZrq8FTnvKoTg95srTiC2Votx1B',
                 'feeAssetId': null,
                 'fee': Money.fromCoins(500000, AcrylAsset),
                 'payment': [Money.fromCoins('1400500000', AcrylAsset)
                 ],
-                'id': 'F3NKXW84ADWjZUdSRHJRNrdGx6eDkGv4R3u1S6xpBPAm',
+                'id': 'CJUR4gGrYUz7hbfaxDLGpb8SRtJ1cuUrG5TRHJNMx585',
                 'type': 16,
                 'version': 1,
                 'timestamp': 1559291920421
             },
-            id: 'F3NKXW84ADWjZUdSRHJRNrdGx6eDkGv4R3u1S6xpBPAm',
-            proof: '251dDXzmZgXHpnwc9Hc9SuzvSydFmPYd4hayTHerMULvj1x9mdD223CUuzA1zCRmyWTBsmmuPGgrqFZjGV767p9R'
+            id: 'CJUR4gGrYUz7hbfaxDLGpb8SRtJ1cuUrG5TRHJNMx585',
+            proof: '5Hxyuv3fSP5J3erjyVvR4xw4tjXCczZGEuHys65Fdcj5x3QUVYqs9nkCrfNxKKEejZUuJCEqh4cZvTRuAZUMsJWa'
         }
     },
     
@@ -413,7 +413,7 @@ export const txs = {
     [SIGN_TYPE.CREATE_ORDER]: {
         1: {
             data: {
-                senderPublicKey: '2M25DqL2W4rGFLCFadgATboS8EPqyWAN3DjH12AH5Kdr',
+                senderPublicKey: 'EcLWiQ3yH9kREogVVKff1XApYDxaYBinAYcPigW7TMo6',
                 orderType: 'sell',
                 price: Money.fromTokens('0.00030665', BtcAsset),
                 amount: Money.fromTokens('0.05186534', AcrylAsset),
@@ -423,13 +423,13 @@ export const txs = {
                 version: 1,
                 timestamp: 1559290022165
             },
-            id: 'EYFuGbfHCpqjao4WYdvnqnTfyaJkvdv2cvwa9b7eXX7x',
-            proof: '66H7o9oQvtU79Gk7JryH8LmFz94Mv2TBVKyRX3KavJNsysvuLZppRhb5JpEhrRvHu8wsQQPxfSS2XtNQusHr1Z9h'
+            id: 'RJxtx6GZc7Smf5Mb12nyMoizb79GuzRZvuKHSiuEne8',
+            proof: '5d8WKWYhjwz3iQSHnVi5HBvPfzdG2reZ6Vwe23wgwN94dYizA5EiDStrBhHSAD9knjt3Z6PkfM65P6YVCe7h2vua'
         },
         2: {
             data: {
                 'version': 2,
-                'senderPublicKey': 'Cb92PCaMeimQmmK1dSaoUro3j8YhskKhH89JWdmsCkQX',
+                'senderPublicKey': 'EcLWiQ3yH9kREogVVKff1XApYDxaYBinAYcPigW7TMo6',
                 'matcherPublicKey': 'E3UwaHCQCySghK3zwNB8EDHoc3b8uhzGPFz3gHmWon4W',
                 'orderType': 'buy',
                 'amount': Money.fromCoins(71841490, AcrylAsset),
@@ -438,8 +438,8 @@ export const txs = {
                 'expiration': 1561796609514,
                 'matcherFee': Money.fromCoins(700000, AcrylAsset),
             },
-            id: 'FbjthDRAWRxETe9pjgpX3Fi6cBWRzVM5jgitsHaZ7sbj',
-            proof: '63N2ogYfxnWA2CYKAKzGrRCR7DDmnqCS1rhfRsseWGFufZvHXkmeiYYBp83CbtKzKAawtzviLYUeYhDuLfw3v3KA'
+            id: '29oB5JeNZQFq3E21URYSj9a6z5XphSMWMgKD5V57TKSU',
+            proof: 'AAFJfndARTUjM3EZpom1DthE8dHtHnEhds517ew57qJd8q3d4yeVCF2CUJ1cvnREeRaTjiaarrowsos1eUT3aHr'
         }
     },
 };

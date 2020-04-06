@@ -2,9 +2,9 @@ import { Asset } from '@acryl/data-entities';
 
 
 export const AcrylAsset = new Asset({
-    ticker: 'WAVES',
-    id: 'WAVES',
-    name: 'Waves',
+    ticker: 'ACRYL',
+    id: 'ACRYL',
+    name: 'Acryl',
     precision: 8,
     description: '',
     height: 0,

@@ -304,7 +304,7 @@ const assetId = (options: IFieldOptions) => {
         isAssetId = false;
     }
     
-    if (!isAssetId && value !== 'WAVES') {
+    if (!isAssetId && value !== 'ACRYL') {
         return error(options, ERROR_MSG.WRONG_ASSET_ID);
     }
 };

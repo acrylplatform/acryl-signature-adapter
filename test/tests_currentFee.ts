@@ -49,15 +49,15 @@ const CONFIG = {
 
 const ACRYL_ASSET = new Asset({
     precision: 8,
-    id: 'WAVES',
+    id: 'ACRYL',
     quantity: new BigNumber('1000000000000000'),
-    description: 'Waves token',
+    description: 'Acryl token',
     height: 0,
-    name: 'Waves',
+    name: 'Acryl',
     reissuable: false,
     sender: seed.address,
     timestamp: new Date(),
-    ticker: 'WAVES'
+    ticker: 'ACRYL'
 });
 
 const TEST_ASSET = new Asset({
